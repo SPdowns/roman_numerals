@@ -1,22 +1,22 @@
-// Back End
+// // Back End
+// var number = []
+// var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
+// console.log (romanNums)
 
-var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
+// var romanFinish = function(number) {
+//   console.log (romanFinish)
+// }
 
-var romanFinish = function(numValue) {
-  console.log (romanFinish)
-}
-
-// Front End
+// // Front End
 
 $(document).ready(function(){
-
   $("form#roman-form").submit(function(event){
     event.preventDefault();
     
-    var numValue = ("input#numValue").val();
-    console.log (numValue)
-    var result = form(submit);
-  });
+    var number = $("input#numValue").val();
+    console.log(number)
+
     $("#result").html(result);
-    console.log(result)
+  });
+   
 });
