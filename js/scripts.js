@@ -5,8 +5,9 @@ console.log (romanNums)
 
 var romanFinish = function(number) {
   console.log (romanFinish)
+  if (number === 1)
+  return 
 }
-for 
 // Front End
 
 $(document).ready(function(){
@@ -20,3 +21,4 @@ $(document).ready(function(){
   });
    
 });
+
