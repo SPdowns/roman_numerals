@@ -2,11 +2,15 @@
 
 var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
 
+var romanFinish = function(numValue) {
+  console.log (romanFinish)
+}
+
 // Front End
 
 $(document).ready(function(){
 
-  $("form#form-group").submit(function(event){
+  $("form#roman-form").submit(function(event){
     event.preventDefault();
     
     var numValue = ("input#numValue").val();
