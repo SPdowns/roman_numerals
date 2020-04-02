@@ -1,21 +1,23 @@
 // Back End
 
 var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
+var romanOne = $("input#numValue").val();
+var inputNumber = romanOne
 
 var romanFinish = function(romanOne) {
-  var inputNumber = romanOne.toString();
-  var outputNumber = inputNumber.map(function(thirdNumber){
- 
-  })
+  
+  var outputNumber = inputNumber
+  return outputNumber
+  
 }
-console.log(romanOne)
+console.log(romanFinish)
 // Front End
 
 $(document).ready(function(){
   $("form#roman-form").submit(function(event){
     event.preventDefault();
     
-    var romanOne = $("input#numValue").val();
+    
     
     $("#result").html(result);
   });
