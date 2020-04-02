@@ -1,13 +1,13 @@
-// // Back End
-// var number = []
-// var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
-// console.log (romanNums)
+// Back End
+var number = []
+var romanNums = ["I", "V", "X", "L", "C", "D", "M"]
+console.log (romanNums)
 
-// var romanFinish = function(number) {
-//   console.log (romanFinish)
-// }
-
-// // Front End
+var romanFinish = function(number) {
+  console.log (romanFinish)
+}
+for 
+// Front End
 
 $(document).ready(function(){
   $("form#roman-form").submit(function(event){
